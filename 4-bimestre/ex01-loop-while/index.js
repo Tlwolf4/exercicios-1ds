@@ -8,5 +8,5 @@ resultado = resultado + 1
 
 }
 console.log(`${resultado}`)
-// === NÃO MODIFIQUE NADA ABAIXO ============
+// === NÃO MODIFIQUE NADA ABAIXO =============
 module.exports = resultado
