@@ -7,8 +7,6 @@ while (resultado < 10 ) {
 resultado = resultado + 1
 
 }
-
-
 console.log(`${resultado}`)
 // === NÃO MODIFIQUE NADA ABAIXO ============
 module.exports = resultado
