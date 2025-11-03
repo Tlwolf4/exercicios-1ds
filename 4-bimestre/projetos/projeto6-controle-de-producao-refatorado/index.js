@@ -31,12 +31,15 @@ for (let i = 1; i < producao.length; i++) {
   }
 }
 
-console.log(`Maior produção: ${maior} (dia ${producao.indexOf(maior) + 1})`)
-console.log(`Menor produção: ${menor} (dia ${producao.indexOf(menor) + 1})`)
-producao.sort((a, b) => a - b)
-console.log(`Ordem crescente: [ ${producao} ]`)
-producao.sort((a, b) => b - a)
-console.log(`Ordem descrescente: [ ${producao} ]`)
+console.log(`--- RELATÓRIO DE PRODUÇÃO ---
+Produções registradas: ${producao}
+Total produzido: ${total}
+Média diária: ${media}
+Maior produção: ${maior}
+Menor produção: ${menor}
+Ordem crescente:{${producao.sort((a, b) => a - b)}
+Ordem decrescente:${producao.sort((a, b) => b - a)}
+`)
 
 let metadeDoMaior = maior / 2
 
